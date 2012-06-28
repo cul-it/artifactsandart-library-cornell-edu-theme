@@ -42,9 +42,7 @@
 				<?php print $messages; ?>
 				<?php if ($title): ?><h2><?php print $title; ?></h2><?php endif; ?>
 				<?php if ($tabs = render($tabs)): ?><div class="tabs"><?php print $tabs; ?></div><?php endif; ?>
-		       	<?php if (!drupal_is_front_page()) { ?>
 				<?php print render($page['content']); ?>
-				<?php } ?>
 			</div>
 			<div class="four columns clearfix">
 				<?php print render($page['sidebar_first']); ?>

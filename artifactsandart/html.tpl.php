@@ -8,7 +8,6 @@
 <!DOCTYPE html>
 <html lang="en">
 	<meta charset="utf-8">
-	<head profile="<?php print $grddl_profile; ?>">
   	<?php print $head; ?>
   	<title><?php print $head_title; ?></title>
 	<meta name="description" content="">

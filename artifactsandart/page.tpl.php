@@ -31,9 +31,10 @@
 		<h1 class="title"><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><?php print $site_name; ?></a></h1>
 	</header>	
 	
-    <nav>
+     <nav>
 		<?php print render($page['navigation']); ?>
-    </nav>
+     </nav>
+
 	
 	<div class="main-content clearfix">
 		<div class="gutter">

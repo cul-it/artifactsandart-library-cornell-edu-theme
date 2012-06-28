@@ -38,19 +38,13 @@
 	
 	<div class="main-content clearfix">
 		<div class="gutter">
-			<div class="eight columns clearfix">
-				<?php print $messages; ?>
-				<?php if ($title): ?><h2><?php print $title; ?></h2><?php endif; ?>
-				<?php if ($tabs = render($tabs)): ?><div class="tabs"><?php print $tabs; ?></div><?php endif; ?>
-		        <?php print render($page['help']); ?>
-		        <?php if ($action_links = render($action_links)): ?><ul class="action-links"><?php print $action_links; ?></ul><?php endif; ?>
-		        <?php print render($page['content']); ?>
-		        <?php print $feed_icons; ?>
-			</div>
-			<div class="four columns clearfix">
-				<?php print render($page['sidebar_first']); ?>
- 				<?php print render($page['sidebar_second']); ?>
-			</div>
+			<?php print $messages; ?>
+			<?php if ($title): ?><h2><?php print $title; ?></h2><?php endif; ?>
+			<?php if ($tabs = render($tabs)): ?><div class="tabs"><?php print $tabs; ?></div><?php endif; ?>
+	        <?php print render($page['help']); ?>
+	        <?php if ($action_links = render($action_links)): ?><ul class="action-links"><?php print $action_links; ?></ul><?php endif; ?>
+	        <?php print render($page['content']); ?>
+	        <?php print $feed_icons; ?>
 		</div>
 	</div><!-- main-content -->	
 	<footer>

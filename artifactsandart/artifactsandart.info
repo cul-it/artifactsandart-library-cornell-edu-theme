@@ -8,9 +8,9 @@ core        = 7.x
 ; REGIONS
 ; ------------------------------
 regions[header] = Header
-regions[highlighted] = Highlighted
+;regions[highlighted] = Highlighted
 regions[navigation] = Navigation bar
-regions[help] = Help
+;regions[help] = Help
 regions[content] = Content
 regions[sidebar_first] = Sidebar first
 regions[sidebar_second] = Sidebar second

@@ -140,6 +140,7 @@ li.expanded,
 li.collapsed,
 li.leaf {padding: 0;}
 ul li.leaf {list-style: none;}
+div.contextual-links-wrapper ul.contextual-links {position: relative; z-index: 1000;}
 
 
 

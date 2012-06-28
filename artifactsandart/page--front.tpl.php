@@ -43,6 +43,7 @@
 				<?php if ($title): ?><h2><?php print $title; ?></h2><?php endif; ?>
 				<?php if ($tabs = render($tabs)): ?><div class="tabs"><?php print $tabs; ?></div><?php endif; ?>
 				<?php print render($page['content']); ?>
+				<?php if(drupal_is_front_page()) {unset($page['content']['system_main']['default_message']);} ?>
 			</div>
 			<div class="four columns clearfix">
 				<?php print render($page['sidebar_first']); ?>

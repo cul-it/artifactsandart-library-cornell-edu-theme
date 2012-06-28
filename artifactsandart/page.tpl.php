@@ -51,9 +51,7 @@
 			<?php print render($page['sidebar_first']); ?>
  			<?php print render($page['sidebar_second']); ?>
 		</div>
-	</div><!-- main-content -->
-	<?php include("inc/footer.php") ?>
-	
+	</div><!-- main-content -->	
 	<footer>
 		<?php print render($page['footer']); ?>
 	</footer

@@ -119,7 +119,7 @@ nav {width: 100%; overflow: hidden; background: #b31b1b;
 	-moz-box-shadow: inset 0 0 5px #333;
 	-webkit-box-shadow: inset 0 0 5px #333;
 	box-shadow: inner 0 0 5px #333;}
-nav ul.menu {list-style: none; margin: 8px 20px; overflow: hidden;}
+nav ul.menu {list-style: none; margin: 10px 20px; overflow: hidden;}
 nav ul.menu li {float: left; margin: 0 0 0 15px;}
 nav ul.menu a:link,
 nav ul.menu a:visited {display: block; color: #fff; text-transform: uppercase; font-weight: 300; padding: 5px 15px;
@@ -129,10 +129,10 @@ nav ul.menu a:visited {display: block; color: #fff; text-transform: uppercase; f
 	border-radius: 4px;}
 nav ul.menu a:hover {text-decoration: none; background: #c00;}
 
-nav ul.menu li.active a:link,
-nav ul.menu li.active a:visited,
-nav ul.menu li.active a:hover,
-nav ul.menu li.active a:active {background: #8b1414;}
+nav ul.menu a.active:link,
+nav ul.menu a.active:visited,
+nav ul.menu a.active:hover,
+nav ul.menu a.active:active {background: #8b1414;}
 
 /* override drupal */
 nav h2 {display: none;}

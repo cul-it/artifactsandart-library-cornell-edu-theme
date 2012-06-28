@@ -36,6 +36,8 @@ body {-moz-background-size: cover; background-size: cover; font-size: 100%; font
 /* background images */
 body.front {background: #000 url(../img/bg/RMC2005_0625.jpg) center center fixed no-repeat;} /* home */
 body.page-node-1 {background: #000 url(../img/bg/RMC2005_0628.jpg) center center fixed no-repeat;} /* about */
+body.page-node-2 {background: #000 url(../img/bg/10355007.jpg) center center fixed no-repeat;} /* get involved */
+body.page-node-3 {background: #000 url(../img/bg/10355027.jpg) center center fixed no-repeat;} /* contact */
 
 header {margin: 30px auto 0 auto; background: #fff; width: 99%;
 	-webkit-border-top-right-radius: 5px;

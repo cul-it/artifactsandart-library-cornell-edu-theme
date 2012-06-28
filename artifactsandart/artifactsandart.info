@@ -9,6 +9,7 @@ core        = 7.x
 ; ------------------------------
 regions[header] = Header
 regions[highlighted] = Highlighted
+regions[navigation] = Navigation bar
 regions[help] = Help
 regions[content] = Content
 regions[sidebar_first] = Sidebar first

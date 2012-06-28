@@ -10,7 +10,7 @@
 	<div class="container">
 		<div id="cu-identity-wrap">
 			<div id="cu-identity-content">
-				<a id="insignia-link" href="http://www.cornell.edu/"><img src="img/layout/cu_logo_unstyled.gif" alt="Cornell University" border="0" /></a>
+				<a id="insignia-link" href="http://www.cornell.edu/"><img src="<?php print $base_path ?>/img/layout/cu_logo_unstyled.gif" alt="Cornell University" border="0" /></a>
 				<div id="unit-signature-links">
 					<a id="cornell-link" href="http://www.library.cornell.edu/">Cornell University Library</a>
 				</div>
@@ -50,25 +50,25 @@
 				  	<!-- Carousel items -->
 				  	<div class="carousel-inner">
 				    	<div class="active item">
-				    		<img src="img/slideshow/1.jpg" alt="">
+				    		<img src="<?php print $base_path ?>/img/slideshow/1.jpg" alt="">
 							<div class="carousel-caption">
 								<p>Caption 1 here</p>
 							</div>
 				    	</div>
 					    <div class="item">
-							<img src="img/slideshow/2.jpg" alt="">
+							<img src="<?php print $base_path ?>/img/slideshow/2.jpg" alt="">
 							<div class="carousel-caption">
 								<p>Caption 2 here</p>
 							</div>
 						</div>
 					    <div class="item">
-					    	<img src="img/slideshow/3.jpg" alt="">
+					    	<img src="<?php print $base_path ?>/img/slideshow/3.jpg" alt="">
 							<div class="carousel-caption">
 								<p>Caption 3 here</p>
 							</div>
 					    </div>
 						<div class="item">
-					    	<img src="img/slideshow/4.jpg" alt="">
+					    	<img src="<?php print $base_path ?>/img/slideshow/4.jpg" alt="">
 							<div class="carousel-caption">
 								<p>Caption 4 here</p>
 							</div>

@@ -28,7 +28,7 @@
 
 <div class="container">
 	<header>
-		<h1 class="title"><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><?php print $site_name; ?></a></h1>
+		<h1 class="title"><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home">Campus Artifacts <span>&amp;</span> Art</a></h1>
 	</header>	
 	
      <nav>

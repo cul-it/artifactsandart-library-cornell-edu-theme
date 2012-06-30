@@ -69,19 +69,16 @@
  * @see template_process()
  */
 ?><!DOCTYPE html>
-<!--[if IEMobile 7]><html class="iem7" <?php print $html_attributes; ?>><![endif]-->
-<!--[if lte IE 6]><html class="lt-ie9 lt-ie8 lt-ie7" <?php print $html_attributes; ?>><![endif]-->
-<!--[if (IE 7)&(!IEMobile)]><html class="lt-ie9 lt-ie8" <?php print $html_attributes; ?>><![endif]-->
-<!--[if IE 8]><html class="lt-ie9" <?php print $html_attributes; ?>><![endif]-->
-<!--[if (gte IE 9)|(gt IEMobile 7)]><!--><html <?php print $html_attributes . $rdf_namespaces; ?>><!--<![endif]-->
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 
-<head profile="<?php print $grddl_profile; ?>">
-  	<?php print $head; ?>
+<head>
+	<meta charset="utf-8">
   	<title><?php print $head_title; ?></title>
-
   	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
   	<?php print $styles; ?>
   	<?php print $scripts; ?>
   	<!--[if lt IE 9]>

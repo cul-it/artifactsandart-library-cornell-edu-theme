@@ -95,9 +95,26 @@
 		<h1 class="title"><a href="<?php print $front_page; ?>">Campus Artifacts <span>&amp;</span> Art</a></h1>
 	</header>
 	
-	<nav>
-		<?php print render($page['navigation']); ?>
-    </nav>
+	<?php if ($main_menu): ?>
+        <nav>
+          <?php
+          // This code snippet is hard to modify. We recommend turning off the
+          // "Main menu" on your sub-theme's settings form, deleting this PHP
+          // code block, and, instead, using the "Menu block" module.
+          // @see http://drupal.org/project/menu_block
+          print theme('links__system_main_menu', array(
+            'links' => $main_menu,
+            'attributes' => array(
+              'class' => array('links', 'inline', 'clearfix'),
+            ),
+            'heading' => array(
+              'text' => t('Main menu'),
+              'level' => 'h2',
+              'class' => array('element-invisible'),
+            ),
+          )); ?>
+        </nav>
+      <?php endif; ?>
 	
 	<div class="main-content clearfix">
 		<div class="gutter">

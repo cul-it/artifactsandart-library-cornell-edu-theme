@@ -34,8 +34,8 @@ cornell red		#b31b1b
 body {-moz-background-size: cover; background-size: cover; font-size: 100%; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; color: #000;}
 
 /* background images */
-body.home {background: #000 url(../img/bg/RMC2005_0625.jpg) center center fixed no-repeat;}
-body.about {background: #000 url(../img/bg/RMC2005_0628.jpg) center center fixed no-repeat;}
+body.front {background: #000 url(../img/bg/RMC2005_0625.jpg) center center fixed no-repeat;} /* home */
+body.page-node-1 {background: #000 url(../img/bg/RMC2005_0628.jpg) center center fixed no-repeat;} /* about */
 
 header {margin: 30px auto 0 auto; background: #fff; width: 99%;
 	-webkit-border-top-right-radius: 5px;

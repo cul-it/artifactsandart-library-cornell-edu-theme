@@ -223,7 +223,7 @@ ul.tabs li a {display: block; padding: 5px 10px; background: #e1e1e1;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;}
-ul.tabs li a:hover {text-decoration: none; background: #ddd;}
+ul.tabs li a:hover {text-decoration: none; background: #ccc;}
 ul.tabs li.active a,
 ul.tabs li.active a:hover {background: #b31b1b; color: #fff; text-decoration: none;}
 

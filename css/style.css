@@ -217,8 +217,9 @@ footer p {font-size: 0.75em; padding: 30px;}
 ************************************************************/	
 
 /* view/edit tabs */
-ul.tabs {float right;}
+ul.tabs {float: right;}
 ul.tabs li {float: left;}
+
 	
 	
 /************************************************************

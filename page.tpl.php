@@ -129,23 +129,15 @@
 		        <ul class="action-links"><?php print render($action_links); ?></ul>
 		    <?php endif; ?>
 		   	
-			<?php
-			if(!empty($page['content'])) : 
-			?>
+			<?php if(!empty($page['content'])) : ?>
 
-			<?php
-			if(drupal_is_front_page()) {
-			    unset($page['content']['system_main']['default_message']);
-			    }
-			?>
+				<?php if(drupal_is_front_page()) {
+			    	unset($page['content']['system_main']['default_message']);
+			    }?>
 
-			<?php
-			print render($page['content']); 
-			?>
+				<?php print render($page['content']); ?>
 
-			<?php
-			endif; 
-			?>
+			<?php endif; ?>
 		
 		
 		    <?php print $feed_icons; ?>

@@ -219,10 +219,13 @@ footer p {font-size: 0.75em; padding: 30px;}
 /* view/edit tabs */
 ul.tabs {float: right;}
 ul.tabs li {float: left; font-size: 0.75em; margin: 0 5px 0 0;}
-ul.tabs li a {display: block; padding: 5px; background: #e1e1e1; 
+ul.tabs li a {display: block; padding: 5px 10px; background: #e1e1e1; 
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;}
+ul.tabs li a:hover {text-decoration: none; background: #ddd;}
+ul.tabs li.active a,
+ul.tabs li.active a:hover {background: #b31b1b; color: #fff; text-decoration: none;}
 
 	
 	

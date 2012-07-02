@@ -36,7 +36,7 @@ body {-moz-background-size: cover; background-size: cover; font-size: 100%; font
 /* background images */
 body.front {background: #000 url(../img/bg/sage.jpg) center center fixed no-repeat;} /* home */
 body.page-node-1 {background: #000 url(../img/bg/sheldon-bench.jpg) center center fixed no-repeat;} /* about */
-body.page-node-2 {background: #000 url(../img/bg/sage.jpg) center center fixed no-repeat;} /* get involved */
+body.page-node-2 {background: #000 url(../img/bg/beacham-plaque.jpg) center center fixed no-repeat;} /* get involved */
 body.page-node-3 {background: #000 url(../img/bg/sage.jpg) center center fixed no-repeat;} /* contact */
 
 

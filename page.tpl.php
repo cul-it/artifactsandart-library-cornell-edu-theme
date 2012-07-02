@@ -128,7 +128,26 @@
 		    <?php if ($action_links): ?>
 		        <ul class="action-links"><?php print render($action_links); ?></ul>
 		    <?php endif; ?>
-		    <?php print render($page['content']); ?>
+		   	
+			<?php
+			if(!empty($page['content'])) : 
+			?>
+
+			<?php
+			if(drupal_is_front_page()) {
+			    unset($page['content']['system_main']['default_message']);
+			    }
+			?>
+
+			<?php
+			print render($page['content']); 
+			?>
+
+			<?php
+			endif; 
+			?>
+		
+		
 		    <?php print $feed_icons; ?>
 			<?php
 		      // Render the sidebars to see if there's anything in them.

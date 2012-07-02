@@ -219,6 +219,10 @@ footer p {font-size: 0.75em; padding: 30px;}
 /* view/edit tabs */
 ul.tabs {float: right;}
 ul.tabs li {float: left;}
+ul.tabs li a {display: block; padding: 5px; background: #e1e1e1; 
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;}
 
 	
 	

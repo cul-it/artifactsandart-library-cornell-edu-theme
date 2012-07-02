@@ -119,7 +119,7 @@
 	<div class="main-content clearfix">
 		<div class="gutter">
 			<?php print render($page['highlighted']); ?>
-			<?php if ($title) && (!drupal_is_front_page): ?>
+			<?php if ($title): ?>
 		        <h2><?php print $title; ?></h2>
 		    <?php endif; ?>
 			<?php print $messages; ?>

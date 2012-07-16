@@ -8,8 +8,8 @@ core        = 7.x
 stylesheets[all][] = system.menus.css
 
 stylesheets[all][] = css/skeleton.css
-stylesheets[all][] = css/layout.css
 stylesheets[all][] = css/style.css
+stylesheets[all][] = css/layout.css
 
 ;scripts[] = js/modernizr.js
 

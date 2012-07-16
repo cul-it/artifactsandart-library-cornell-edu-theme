@@ -61,6 +61,7 @@
 		body.page-node-1 {background: #000 url(../img/bg/sheldon-bench-480.jpg) center center fixed no-repeat;} /* about */
 		body.page-node-2 {background: #000 url(../img/bg/beacham-plaque-480.jpg) center center fixed no-repeat;} /* get involved */
 		body.page-node-3 {background: #000 url(../img/bg/feeding-birds-480.jpg) center center fixed no-repeat;} /* contact */
+		#search-navigation {display: none;}
 	}
 
 

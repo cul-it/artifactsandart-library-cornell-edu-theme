@@ -24,19 +24,44 @@
 ================================================== */
 
 	/* Smaller than standard 960 (devices and browsers) */
-	@media only screen and (max-width: 959px) {}
+	@media only screen and (max-width: 959px) {
+		body.front {background: #000 url(../img/bg/sage-960.jpg) center center fixed no-repeat;} /* home */
+		body.page-node-1 {background: #000 url(../img/bg/sheldon-bench-960.jpg) center center fixed no-repeat;} /* about */
+		body.page-node-2 {background: #000 url(../img/bg/beacham-plaque-960.jpg) center center fixed no-repeat;} /* get involved */
+		body.page-node-3 {background: #000 url(../img/bg/feeding-birds-960.jpg) center center fixed no-repeat;} /* contact */
+	}
 
 	/* Tablet Portrait size to standard 960 (devices and browsers) */
-	@media only screen and (min-width: 768px) and (max-width: 959px) {}
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		body.front {background: #000 url(../img/bg/sage-960.jpg) center center fixed no-repeat;} /* home */
+		body.page-node-1 {background: #000 url(../img/bg/sheldon-bench-960.jpg) center center fixed no-repeat;} /* about */
+		body.page-node-2 {background: #000 url(../img/bg/beacham-plaque-960.jpg) center center fixed no-repeat;} /* get involved */
+		body.page-node-3 {background: #000 url(../img/bg/feeding-birds-960.jpg) center center fixed no-repeat;} /* contact */
+	}
 
 	/* All Mobile Sizes (devices and browser) */
-	@media only screen and (max-width: 767px) {}
+	@media only screen and (max-width: 767px) {
+		body.front {background: #000 url(../img/bg/sage-770.jpg) center center fixed no-repeat;} /* home */
+		body.page-node-1 {background: #000 url(../img/bg/sheldon-bench-770.jpg) center center fixed no-repeat;} /* about */
+		body.page-node-2 {background: #000 url(../img/bg/beacham-plaque-770.jpg) center center fixed no-repeat;} /* get involved */
+		body.page-node-3 {background: #000 url(../img/bg/feeding-birds-770.jpg) center center fixed no-repeat;} /* contact */
+	}
 
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		body.front {background: #000 url(../img/bg/sage-770.jpg) center center fixed no-repeat;} /* home */
+		body.page-node-1 {background: #000 url(../img/bg/sheldon-bench-770.jpg) center center fixed no-repeat;} /* about */
+		body.page-node-2 {background: #000 url(../img/bg/beacham-plaque-770.jpg) center center fixed no-repeat;} /* get involved */
+		body.page-node-3 {background: #000 url(../img/bg/feeding-birds-770.jpg) center center fixed no-repeat;} /* contact */
+	}
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-	@media only screen and (max-width: 479px) {}
+	@media only screen and (max-width: 479px) {
+		body.front {background: #000 url(../img/bg/sage-480.jpg) center center fixed no-repeat;} /* home */
+		body.page-node-1 {background: #000 url(../img/bg/sheldon-bench-480.jpg) center center fixed no-repeat;} /* about */
+		body.page-node-2 {background: #000 url(../img/bg/beacham-plaque-480.jpg) center center fixed no-repeat;} /* get involved */
+		body.page-node-3 {background: #000 url(../img/bg/feeding-birds-480.jpg) center center fixed no-repeat;} /* contact */
+	}
 
 
 /* #Font-Face

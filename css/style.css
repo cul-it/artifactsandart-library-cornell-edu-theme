@@ -149,7 +149,9 @@ nav li.active a:active {background: #8b1414;}
 .main-content td {font-size: 1em; line-height: 1.4em;}
 
 .main-content p,
-.main-content ul {margin: 0 0 1em;}
+.main-content ul,
+.main-content ol {margin: 0 0 1em;}
+.main-content ol {list-style: decimal;}
 .main-content li {margin-left: 30px;}
 
 .main-content h2 {margin: 0 0 1.5em; font-size: 1.5em; line-height: 1.25em; font-weight: normal;}

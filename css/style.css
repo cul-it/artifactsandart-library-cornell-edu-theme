@@ -65,6 +65,7 @@ footer {margin: 0 auto 30px auto; border-top: 1px dotted #b31b1b; background: #f
 
 .main-content .gutter {padding: 60px 30px; overflow: hidden;}
 
+.sidebar {float: right; padding: 0 0 30px 30px;}
 
 
 /************************************************************
@@ -173,10 +174,13 @@ footer p.login {padding-top: 0;}
 
 
 /************************************************************
-	HOME PAGE ELEMENTS
+	SLIDESHOW
 ************************************************************/
 
-.carousel {width: 273px; padding: 10px; background: #eee; text-align: center; margin-left: 60px;
+#block-views-slideshow-block .field-content {font-size: 0.75em; font-style: italic; color: #444;}
+
+
+/*.carousel {width: 273px; padding: 10px; background: #eee; text-align: center; margin-left: 60px;
 	-webkit-border-radius: 5px; 
 	-moz-border-radius: 5px; 
 	border-radius: 5px;}
@@ -213,7 +217,7 @@ footer p.login {padding-top: 0;}
   	filter: alpha(opacity=90);}
 .carousel-caption {position: absolute; left: 0; right: 0; bottom: 0; padding: 10px 15px 5px; background: #333333; background: rgba(0, 0, 0, 0.75);}
 .carousel-caption h4,
-.carousel-caption p {color: #ffffff;}
+.carousel-caption p {color: #ffffff;}*/
 	
 /************************************************************
 	DRUPAL ADMIN STUFF

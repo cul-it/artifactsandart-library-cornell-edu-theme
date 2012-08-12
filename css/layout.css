@@ -23,6 +23,37 @@
 /* #Media Queries
 ================================================== */
 
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		body.front {background: #000 url(../img/bg/sage-480.jpg) center center fixed no-repeat;} /* home */
+		body.page-node-1 {background: #000 url(../img/bg/sheldon-bench-480.jpg) center center fixed no-repeat;} /* about */
+		body.page-node-2 {background: #000 url(../img/bg/beacham-plaque-480.jpg) center center fixed no-repeat;} /* get involved */
+		body.page-node-6 {background: #000 url(../img/bg/lacroute-plaza-480.jpg) center center fixed no-repeat;} /* faq */
+		body.page-node-7 {background: #000 url(../img/bg/feeding-birds-480.jpg) center center fixed no-repeat;} /* contact */
+		#search-navigation {display: none;}
+		#cu-identity-content {width: auto;}
+		nav li {float: none;}
+		.view-slideshow img {max-width: 100%;}
+	}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		body.front {background: #000 url(../img/bg/sage-770.jpg) center center fixed no-repeat;} /* home */
+		body.page-node-1 {background: #000 url(../img/bg/sheldon-bench-770.jpg) center center fixed no-repeat;} /* about */
+		body.page-node-2 {background: #000 url(../img/bg/beacham-plaque-770.jpg) center center fixed no-repeat;} /* get involved */
+		body.page-node-6 {background: #000 url(../img/bg/lacroute-plaza-770.jpg) center center fixed no-repeat;} /* faq */
+		body.page-node-7 {background: #000 url(../img/bg/feeding-birds-770.jpg) center center fixed no-repeat;} /* contact */
+	}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		body.front {background: #000 url(../img/bg/sage-770.jpg) center center fixed no-repeat;} /* home */
+		body.page-node-1 {background: #000 url(../img/bg/sheldon-bench-770.jpg) center center fixed no-repeat;} /* about */
+		body.page-node-2 {background: #000 url(../img/bg/beacham-plaque-770.jpg) center center fixed no-repeat;} /* get involved */
+		body.page-node-6 {background: #000 url(../img/bg/lacroute-plaza-770.jpg) center center fixed no-repeat;} /* faq */
+		body.page-node-7 {background: #000 url(../img/bg/feeding-birds-770.jpg) center center fixed no-repeat;} /* contact */
+	}
+
 	/* Smaller than standard 960 (devices and browsers) */
 	@media only screen and (max-width: 959px) {
 		body.front {background: #000 url(../img/bg/sage-960.jpg) center center fixed no-repeat;} /* home */
@@ -39,35 +70,6 @@
 		body.page-node-2 {background: #000 url(../img/bg/beacham-plaque-960.jpg) center center fixed no-repeat;} /* get involved */
 		body.page-node-6 {background: #000 url(../img/bg/lacroute-plaza-960.jpg) center center fixed no-repeat;} /* faq */
 		body.page-node-7 {background: #000 url(../img/bg/feeding-birds-960.jpg) center center fixed no-repeat;} /* contact */
-	}
-
-	/* All Mobile Sizes (devices and browser) */
-	@media only screen and (max-width: 767px) {
-		body.front {background: #000 url(../img/bg/sage-770.jpg) center center fixed no-repeat;} /* home */
-		body.page-node-1 {background: #000 url(../img/bg/sheldon-bench-770.jpg) center center fixed no-repeat;} /* about */
-		body.page-node-2 {background: #000 url(../img/bg/beacham-plaque-770.jpg) center center fixed no-repeat;} /* get involved */
-		body.page-node-6 {background: #000 url(../img/bg/lacroute-plaza-770.jpg) center center fixed no-repeat;} /* faq */
-		body.page-node-7 {background: #000 url(../img/bg/feeding-birds-770.jpg) center center fixed no-repeat;} /* contact */
-	}
-
-	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-	@media only screen and (min-width: 480px) and (max-width: 767px) {
-		body.front {background: #000 url(../img/bg/sage-770.jpg) center center fixed no-repeat;} /* home */
-		body.page-node-1 {background: #000 url(../img/bg/sheldon-bench-770.jpg) center center fixed no-repeat;} /* about */
-		body.page-node-2 {background: #000 url(../img/bg/beacham-plaque-770.jpg) center center fixed no-repeat;} /* get involved */
-		body.page-node-6 {background: #000 url(../img/bg/lacroute-plaza-770.jpg) center center fixed no-repeat;} /* faq */
-		body.page-node-7 {background: #000 url(../img/bg/feeding-birds-770.jpg) center center fixed no-repeat;} /* contact */
-	}
-
-	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-	@media only screen and (max-width: 479px) {
-		body.front {background: #000 url(../img/bg/sage-480.jpg) center center fixed no-repeat;} /* home */
-		body.page-node-1 {background: #000 url(../img/bg/sheldon-bench-480.jpg) center center fixed no-repeat;} /* about */
-		body.page-node-2 {background: #000 url(../img/bg/beacham-plaque-480.jpg) center center fixed no-repeat;} /* get involved */
-		body.page-node-6 {background: #000 url(../img/bg/lacroute-plaza-480.jpg) center center fixed no-repeat;} /* faq */
-		body.page-node-7 {background: #000 url(../img/bg/feeding-birds-480.jpg) center center fixed no-repeat;} /* contact */
-		#search-navigation {display: none;}
-		#cu-identity-content {width: auto;}
 	}
 
 

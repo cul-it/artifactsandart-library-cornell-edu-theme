@@ -117,7 +117,17 @@
       <?php endif; ?>
 	
 	<div class="main-content clearfix">
-		<div class="gutter">
+		
+			<?php
+            // Render the sidebars to see if there's anything in them.
+	            $sidebar_first  = render($page['sidebar_first']);
+	            $sidebar_second = render($page['sidebar_second']);
+        	?>
+
+
+
+        <div class="gutter">
+
 			<?php print render($page['highlighted']); ?>
 			<?php print $messages; ?>
 			<?php print render($tabs); ?>
@@ -129,6 +139,14 @@
 		    <?php if ($action_links): ?>
 		        <ul class="action-links"><?php print render($action_links); ?></ul>
 		    <?php endif; ?>
+
+		    <?php if ($sidebar_first || $sidebar_second): ?>
+		      	<div class="sidebar">
+		        	<?php print $sidebar_first; ?>
+		        	<?php print $sidebar_second; ?>
+		      	</div><!-- /.sidebar -->
+		    <?php endif; ?>
+
 		   	
 			<?php if(!empty($page['content'])) : ?>
 
@@ -138,22 +156,9 @@
 
 				<?php print render($page['content']); ?>
 
-			<?php endif; ?>
+			<?php endif; ?>	
 		
-		
-		    <?php print $feed_icons; ?>
-			<?php
-		      // Render the sidebars to see if there's anything in them.
-		      $sidebar_first  = render($page['sidebar_first']);
-		      $sidebar_second = render($page['sidebar_second']);
-		    ?>
-
-		    <?php if ($sidebar_first || $sidebar_second): ?>
-		      	<aside class="sidebar">
-		        	<?php print $sidebar_first; ?>
-		        	<?php print $sidebar_second; ?>
-		      	</aside><!-- /.sidebar -->
-		    <?php endif; ?>
+		    <?php print $feed_icons; ?>   
 		</div>
 	</div><!-- main-content -->
 	<footer>

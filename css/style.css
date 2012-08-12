@@ -168,7 +168,7 @@ em {font-style: italic;}
 ************************************************************/
 
 footer p {font-size: 0.75em; padding: 30px;}
-
+footer p.login {padding-top: 0;}
 
 
 

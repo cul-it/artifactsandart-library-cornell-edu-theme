@@ -7,7 +7,7 @@
 /*
 Title:		Main screen styles
 Author:		mhk33@cornell.edu
-Updated:	July 2, 2012
+Updated:	August 14, 2012
 */
 
 /* COLORS
@@ -162,7 +162,7 @@ nav li.active a:active {background: #8b1414;}
 .main-content h5 {margin: 0 0 .25em; font-size: 1em;}
 
 em {font-style: italic;}
-
+strong {font-weight: bold;}
 
 /************************************************************
 	FOOTER

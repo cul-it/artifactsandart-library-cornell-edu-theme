@@ -185,11 +185,16 @@ footer p.login {padding-top: 0;}
 ************************************************************/
 
 .center {text-align: center;}
-.box-right {float: right; padding: 10px; background: #f1f1f1; margin: 0 0 20px 20px; width: 30%;
+.box-right {float: right; padding: 10px; background: #8B1414; width: 30%; color: #fff;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
 }
+.main-content p.box-right {
+	margin: 0 0 3px 30px;
+	}
+.box-right a {color: #fff; text-decoration: underline;}
+
 
 /************************************************************
 	SLIDESHOW

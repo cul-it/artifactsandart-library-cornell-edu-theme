@@ -185,7 +185,7 @@ footer p.login {padding-top: 0;}
 ************************************************************/
 
 .center {text-align: center;}
-.right-box {float: right; padding: 10px; background: #f1f1f1; margin: 0 0 20px 20px; width: 30%;
+.box-right {float: right; padding: 10px; background: #f1f1f1; margin: 0 0 20px 20px; width: 30%;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;

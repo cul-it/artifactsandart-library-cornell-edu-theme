@@ -179,6 +179,7 @@ blockquote {margin: 30px;}
 ************************************************************/
 
 footer p {font-size: 0.75em; padding: 30px; line-height: 2em;}
+footer .region-footer p {padding-bottom: 0;}
 footer p.login {padding-top: 0;}
 
 

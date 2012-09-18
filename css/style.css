@@ -101,7 +101,7 @@ a:active {text-decoration: underline;}
 	HEADER
 ************************************************************/
 
-h1.title a {display: block; padding: 40px 30px; font-weight: 300; color: #b31b1b; font-size: 2.25em; text-transform: uppercase;}
+h1.title a {display: block; padding: 35px 30px; font-weight: 300; color: #b31b1b; font-size: 2.25em; text-transform: uppercase;}
 	h1.title a:hover {text-decoration: none;}
 	h1.title a span {color: #000;}
 

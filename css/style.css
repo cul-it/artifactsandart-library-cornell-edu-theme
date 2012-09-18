@@ -182,7 +182,7 @@ blockquote {margin: 30px;}
 footer p {font-size: 0.75em; padding: 30px; line-height: 2em;}
 footer .region-footer p {padding-bottom: 0;}
 footer p.login {padding-top: 0;}
-	.maintenance-page footer p.login {padding-top: 30px;}
+	body.maintenance-page footer p.login {padding-top: 30px;}
 
 
 /************************************************************

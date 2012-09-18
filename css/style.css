@@ -34,8 +34,7 @@ cornell red		#b31b1b
 body {-moz-background-size: cover; background-size: cover; font-size: 100%; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; color: #000; background: #000;}
 
 /* background images */
-body.front,
-body.maintenance-page {background: #000 url(../img/bg/sage.jpg) center center fixed no-repeat;} /* home */
+body.front {background: #000 url(../img/bg/sage.jpg) center center fixed no-repeat;} /* home */
 body.page-node-1 {background: #000 url(../img/bg/sheldon-bench.jpg) center center fixed no-repeat;} /* about */
 body.page-node-2 {background: #000 url(../img/bg/beacham-plaque.jpg) center center fixed no-repeat;} /* get involved */
 body.page-node-6 {background: #000 url(../img/bg/lacroute-plaza.jpg) center center fixed no-repeat;} /* faq */

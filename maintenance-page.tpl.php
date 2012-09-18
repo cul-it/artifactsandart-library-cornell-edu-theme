@@ -128,16 +128,10 @@
 
         <div class="gutter">
 
-			<?php print render($page['highlighted']); ?>
 			<?php print $messages; ?>
 			<?php print render($tabs); ?>
 			<?php if ($title): ?>
 		        <h2><?php print $title; ?></h2>
-		    <?php endif; ?>
-
-		    <?php print render($page['help']); ?>
-		    <?php if ($action_links): ?>
-		        <ul class="action-links"><?php print render($action_links); ?></ul>
 		    <?php endif; ?>
 
 		    <?php if ($sidebar_first || $sidebar_second): ?>
@@ -150,9 +144,6 @@
 		   	
 			<?php if(!empty($page['content'])) : ?>
 
-				<?php if(drupal_is_front_page()) {
-			    	unset($page['content']['system_main']['default_message']);
-			    }?>
 
 				<?php print render($page['content']); ?>
 

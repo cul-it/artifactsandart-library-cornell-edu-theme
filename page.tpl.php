@@ -92,7 +92,7 @@
 
 <div class="container">
 	<header>
-		<h1 class="title"><a href="<?php print $front_page; ?>">Campus Artifacts <span>&amp;</span> Art</a></h1>
+		<h1 class="title"><a href="<?php print $front_page; ?>">Campus Artifacts, Art <span>&amp;</span> Memorabilia</a></h1>
 	</header>
 	
 	<?php if ($main_menu): ?>

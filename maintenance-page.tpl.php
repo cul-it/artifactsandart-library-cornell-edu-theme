@@ -101,10 +101,7 @@
 		
 		</div>
 	</div><!-- main-content -->
-	<footer>
-		<?php print render($page['footer']); ?>
-		<?php if ( user_is_logged_in() ) { print '<p class="login">Hi <a href="/user" title="View your dashboard">'. $user->name .'</a> (<a href="/user/logout" title="Logout">Logout</a>)</p>'; } else { print '<p class="login"><a id="login" href="/user" title="Login here">Login</a></p>'; } ?>
-	</footer
+	
 </div><!-- container -->
 
 <?php print render($page['bottom']); ?>

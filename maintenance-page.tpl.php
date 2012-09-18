@@ -97,15 +97,8 @@
 		      	</div><!-- /.sidebar -->
 		    <?php endif; ?>
 
-		   	
-			<?php if(!empty($page['content'])) : ?>
-
-
-				<?php print render($page['content']); ?>
-
-			<?php endif; ?>	
+		   	<p>The Campus Artifacts, Art &amp; Memorabilia web site is currently under maintenance. We apologize for any inconvenience.</p>
 		
-		    <?php print $feed_icons; ?>   
 		</div>
 	</div><!-- main-content -->
 	<footer>
